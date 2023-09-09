@@ -1,3 +1,7 @@
 # Lib for create Jupyter notebook server
 # https://pypi.org/project/jupyterhub/
 jupyterhub
+
+# For running notebook servers in same environment
+jupyterlab
+notebook

@@ -1,11 +1,22 @@
 services:
-  chrome:
-    # docker run -d -p 8000:8000 --name jupyterhub jupyterhub/jupyterhub jupyterhub
-    # docker exec -ti ed3ae74dfc6d /bin/bash   
-    image: jupyterhub/jupyterhub
+  hub:
+    build: .
     ports:
       - 8000:8000  # jupyterhub server
       - 8081:8081  # jupyterhub server
+
+
+  # to open bash
+  # docer ps -a  # get all conteiners where we find needed
+  # docker exec -it contaiter_id sh 
+
+  # chrome:
+    # docker run -d -p 8000:8000 --name jupyterhub jupyterhub/jupyterhub jupyterhub
+    # docker exec -ti ed3ae74dfc6d /bin/bash   
+    # image: jupyterhub/jupyterhub
+    # ports:
+    #   - 8000:8000  # jupyterhub server
+    #   - 8081:8081  # jupyterhub server
 
   # jupyterhub + jupyterlab = доступ по url
   # + несколько ядер с разными версиями python
