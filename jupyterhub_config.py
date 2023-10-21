@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 # Configuration file for JupyterHub
 import os
 
@@ -29,3 +30,11 @@ c.LocalAuthenticator.create_system_users=True
 # # User containers will access hub by container name on the Docker network
 # c.JupyterHub.hub_ip = network_name
 # c.JupyterHub.hub_port = 8080
+=======
+import os
+
+c = get_config()  #noqa
+
+c.JupyterHub.bind_url = 'http://0.0.0.0:9999/'
+c.Authenticator.admin_users = {'admin', 'M1troll'}
+>>>>>>> Stashed changes
