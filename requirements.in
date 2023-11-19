@@ -1,11 +1,4 @@
-# Lib for create Jupyter notebook server
-# https://pypi.org/project/jupyterhub/
-jupyterhub >= 4.0.2
+jupyterhub
+notebook
 
-# For running notebook servers in same environment
-jupyterlab >= 4.0.7
-notebook >= 7.0.6
-
-jsonschema < 4.18.0
-
-dockerspawner
+dockernel
