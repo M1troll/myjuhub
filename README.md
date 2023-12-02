@@ -43,3 +43,12 @@ jupyterhub
 ```
 
 and go to `http://localhost:8081` with your Unix credentials.
+
+
+
+# Useful links
+
+* https://github.com/Nouvellie/ubuntu/blob/ubuntu/contents/jupyter.md
+* https://github.com/Nouvellie/ubuntu/blob/ubuntu/contents/jupyter.md
+* https://jupyterhub.readthedocs.io/en/stable/tutorial/getting-started/authenticators-users-basics.html
+* https://discourse.jupyter.org/t/starting-server-for-non-default-users-in-jupyterhub-500-internal-server-error/21518

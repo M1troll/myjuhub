@@ -17,3 +17,5 @@ c.PAMAuthenticator.open_sessions = False
 
 c.JupyterHub.authenticator_class = "dummy"
 c.DummyAuthenticator.password = "123"
+
+c.DockerSpawner.read_only_volumes = {'/home/shared-jup': 'shared-jup'}
