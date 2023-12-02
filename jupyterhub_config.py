@@ -3,7 +3,7 @@ import os
 c = get_config()
 
 c.Spawner.args = ["--allow-root"]
-c.Spawner.cmd = "/home/sar1tasa/.pyenv/versions/myjuhub/bin/jupyterhub-singleuser"
+c.Spawner.cmd = "/myjuhub/bin/jupyterhub-singleuser"
 c.JupyterHub.hub_ip = '127.0.0.1'
 
 c.PAMAuthenticator.open_sessions = False
@@ -17,4 +17,11 @@ c.LocalAuthenticator.create_system_users = True
 # Auth rules
 c.JupyterHub.authenticator_class = "dummy"
 c.DummyAuthenticator.password = "123"
+
+
+
+
+
+
+
 
